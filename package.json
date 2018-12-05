@@ -1,0 +1,27 @@
+{
+  "name": "beervana-azure-functions",
+  "version": "1.0.0",
+  "description": "all beervana azure functions",
+  "main": "index.js",
+  "dependencies": {
+    "beervana-scraper": "^0.0.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beervanaza/beervana-azure-functions.git"
+  },
+  "keywords": [
+    "beer"
+  ],
+  "author": "Dusan Rostar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beervanaza/beervana-azure-functions/issues"
+  },
+  "homepage": "https://github.com/beervanaza/beervana-azure-functions#readme"
+}
