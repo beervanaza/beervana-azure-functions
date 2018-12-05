@@ -4,7 +4,7 @@
   "description": "all beervana azure functions",
   "main": "index.js",
   "dependencies": {
-    "beervana-scraper": "^0.0.1",
+    "beervana-scraper": "https://github.com/beervanaza/beervana-scraper/tarball/master", 
     "redis": "^2.8.0"
   },
   "devDependencies": {},
