@@ -3,8 +3,10 @@ var scb = require('beervana-scraper');
 
 module.exports = async function (context, myTimer) {
     // Add your cache name and access key.
-    var client = redis.createClient(6380, process.env.REDISCACHEHOSTNAME, {
-        auth_pass: process.env.REDISCACHEKEY,
+    var client = redis.createClient({
+        host: process.env.REDISCACHEHOSTNAME,
+        port: process.env.REDISCACHEPORT,
+        password: process.env.REDISCACHEKEY,
         tls: {
             servername: process.env.REDISCACHEHOSTNAME
         }
