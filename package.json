@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "beervana-scraper": "https://github.com/beervanaza/beervana-scraper/tarball/master", 
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   },
   "devDependencies": {},
   "scripts": {
